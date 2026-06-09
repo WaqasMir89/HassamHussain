@@ -5,7 +5,8 @@
       "Bash(npm ls *)",
       "Bash(node -e \"try{require\\('puppeteer'\\);console.log\\('puppeteer local'\\)}catch\\(e\\){console.log\\('no local puppeteer'\\)}\")",
       "Bash(kill 5154)",
-      "Bash(rm -f /tmp/test_api.mjs /tmp/hhj_server.log)"
+      "Bash(rm -f /tmp/test_api.mjs /tmp/hhj_server.log)",
+      "Bash(git remote *)"
     ]
   }
 }
