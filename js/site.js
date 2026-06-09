@@ -234,7 +234,7 @@
             // Opens the visitor's email client addressed to Hassam (no backend needed).
             const subject = encodeURIComponent(data.subject || `Portfolio enquiry from ${data.name}`);
             const body = encodeURIComponent(`${data.message}\n\n— ${data.name}\n${data.email}`);
-            window.location.href = `mailto:hello@hassamjafri.com?subject=${subject}&body=${body}`;
+            window.location.href = `mailto:hassamhas@gmail.com?subject=${subject}&body=${body}`;
             if (note) { note.className = "form-note ok"; note.textContent = "Opening your email app… thanks for reaching out!"; }
             cForm.reset();
         });
