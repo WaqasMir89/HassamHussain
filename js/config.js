@@ -5,8 +5,8 @@
       Until then the site runs in DEMO MODE with sample projects.
    ============================================================ */
 
-const SUPABASE_URL = "";       // e.g. "https://xxxxxxxx.supabase.co"
-const SUPABASE_ANON_KEY = "";  // your project's anon/public key
+const SUPABASE_URL = "https://jxiwgvjmgbzzyrxavpqg.supabase.co";       // e.g. "https://xxxxxxxx.supabase.co"
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp4aXdndmptZ2J6enlyeGF2cHFnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwMDM5MjcsImV4cCI6MjA5NjU3OTkyN30.lAWkmP6GeSxwENI106709zBjrAswSLlUJELetos3Xrk";  // your project's anon/public key
 
 const STORAGE_BUCKET = "project-images";
 
