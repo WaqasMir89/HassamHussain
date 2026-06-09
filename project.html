@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Project breakdown — Hassam Hussain Jafri, VFX Artist & Texture Painter.">
+    <meta name="author" content="Hassam Hussain Jafri">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Project — Hassam Hussain Jafri</title>
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="bg-fx"></div>
+    <div class="blob blob--1"></div>
+    <div class="blob blob--2"></div>
+    <div class="stars"></div>
+    <div class="grain"></div>
+
+    <div id="preloader">
+        <div class="preloader-mascot" id="preMascot"></div>
+        <div class="preload-bar"><i></i></div>
+        <p class="preload-tip">Loading…</p>
+    </div>
+
+    <nav class="nav">
+        <a class="nav__brand" href="index.html"><img src="Logo/HHJ-removebg-preview2.png" alt="HHJ"> Hassam Jafri</a>
+        <ul class="nav__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="about-me.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary nav__cta">Hire me</a>
+        <button class="nav__toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <a href="contact.html" class="floating-mascot" aria-label="Say hello"><span class="bubble">Want one like this?</span></a>
+
+    <main id="projectDetail" style="min-height:70vh">
+        <div style="padding:200px 0;text-align:center;color:var(--text-muted)"><span class="spinner" style="display:inline-block"></span></div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__bottom" style="border:none">
+                <span>© <span id="year"></span> Hassam Hussain Jafri.</span>
+                <a href="portfolio.html" style="color:var(--text-muted)">← All projects</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/site.js"></script>
+    <script>document.getElementById("preMascot").innerHTML = mascotSVG(96);</script>
+</body>
+</html>
